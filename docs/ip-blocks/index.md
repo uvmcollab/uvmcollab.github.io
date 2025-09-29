@@ -14,7 +14,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--    :material-ip:{ .lg .middle } __gpio_uvc__
+- :material-ip:{ .lg .middle } __gpio_uvc__
 
     ---
 
@@ -22,8 +22,7 @@ hide:
 
     [:octicons-arrow-right-24: Go](#)
 
-
--    :material-ip:{ .lg .middle } __spi_uvc__
+- :material-ip:{ .lg .middle } __spi_uvc__
 
     ---
 
