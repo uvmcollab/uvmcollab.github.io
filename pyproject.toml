@@ -1,0 +1,12 @@
+[project]
+name = "uvmcollab"
+version = "0.1.0"
+authors = [
+    { name = "Ciro Fabian Bermudez Marquez", email = "cirofabian.bermudez@gmail.com" }
+]
+readme = "README.md"
+description = "A reference webpage for UVM users"
+requires-python = ">=3.9"
+dependencies = [
+    "mkdocs-material >= 9.6.20",
+]
