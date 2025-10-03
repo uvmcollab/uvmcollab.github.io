@@ -2,12 +2,12 @@
 name = "uvmcollab"
 version = "0.1.0"
 authors = [
-    { name = "Ciro Fabian Bermudez Marquez", email = "cirofabian.bermudez@gmail.com" }
-    { name = "Luis Enrique Namigtle Jiménez", email = "namigtle066@gmail.com" }
+    { name = "Ciro Fabian Bermudez Marquez", email = "cirofabian.bermudez@gmail.com" },
+    { name = "Luis Enrique Namigtle Jimenez", email = "namigtle066@gmail.com" }
 ]
 readme = "README.md"
 description = "A reference webpage for UVM users"
 requires-python = ">=3.9"
 dependencies = [
-    "mkdocs-material >= 9.6.20",
+    "mkdocs-material >= 9.6",
 ]
