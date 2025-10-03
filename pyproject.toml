@@ -9,5 +9,5 @@ readme = "README.md"
 description = "A reference webpage for UVM users"
 requires-python = ">=3.9"
 dependencies = [
-    "mkdocs-material >= 9.6.20",
+    "mkdocs-material >= 9.6",
 ]
