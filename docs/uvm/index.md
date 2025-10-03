@@ -16,7 +16,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--    :material-book-open-page-variant:{ .lg .middle } __Resource Guide__
+- :material-book-open-page-variant:{ .lg .middle } __Resource Guide__
 
     ---
 
@@ -24,7 +24,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](guidelines/resource-guide.md)
 
--    :fontawesome-solid-ruler:{ .lg .middle } __UVM Coding Guidelines__
+- :fontawesome-solid-ruler:{ .lg .middle } __UVM Coding Guidelines__
 
     ---
 
@@ -34,11 +34,25 @@ hide:
 
 </div>
 
+## UVM FAQ
+
+<div class="grid cards" markdown>
+
+- :material-book-open-page-variant:{ .lg .middle } __UVM Configuration Database__
+
+    ---
+
+    Put here some description
+
+    [:octicons-arrow-right-24: Reference](faq/uvm_config_db.md)
+
+</div>
+
 ## Templates
 
 <div class="grid cards" markdown>
 
--    :octicons-package-16:{ .lg .middle } __UVM Sequence Item__
+- :octicons-package-16:{ .lg .middle } __UVM Sequence Item__
 
     ---
 
@@ -46,7 +60,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/sequence-item.md)
 
--    :octicons-package-dependents-16:{ .lg .middle } __UVM Sequencer__
+- :octicons-package-dependents-16:{ .lg .middle } __UVM Sequencer__
 
     ---
 
@@ -54,10 +68,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/sequencer.md)
 
-
-
-	
--    :material-steering:{ .lg .middle } __UVM Driver__
+- :material-steering:{ .lg .middle } __UVM Driver__
 
     ---
 
@@ -65,7 +76,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/driver.md)
 
--    :material-monitor:{ .lg .middle } __UVM Monitor__
+- :material-monitor:{ .lg .middle } __UVM Monitor__
 
     ---
 
@@ -73,10 +84,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/monitor.md)
 
-
-
-
--    :fontawesome-solid-user:{ .lg .middle } __UVM Agent__
+- :fontawesome-solid-user:{ .lg .middle } __UVM Agent__
 
     ---
 
@@ -84,18 +92,15 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/agent.md)
 
--    :fontawesome-solid-user-gear:{ .lg .middle } __UVM Agent Config__
+- :fontawesome-solid-user-gear:{ .lg .middle } __UVM Agent Config__
 
     ---
 
     Put here some description
 
-    [:octicons-arrow-right-24: Reference](templates/agent-config.md)	
+    [:octicons-arrow-right-24: Reference](templates/agent-config.md)
 
-
-
-
--    :material-alpha-e-box:{ .lg .middle } __UVM Environment__
+- :material-alpha-e-box:{ .lg .middle } __UVM Environment__
 
     ---
 
@@ -103,18 +108,15 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/env.md)
 
--    :fontawesome-solid-gear:{ .lg .middle } __UVM Environment Config__
+- :fontawesome-solid-gear:{ .lg .middle } __UVM Environment Config__
 
     ---
 
     Put here some description
 
     [:octicons-arrow-right-24: Reference](templates/env-config.md)
-	
 
-
-
--    :fontawesome-solid-microscope:{ .lg .middle } __UVM Test__
+- :fontawesome-solid-microscope:{ .lg .middle } __UVM Test__
 
     ---
 
@@ -122,18 +124,15 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/test.md)
 
--    :octicons-stack-16:{ .lg .middle } __UVM Sequence__
+- :octicons-stack-16:{ .lg .middle } __UVM Sequence__
 
     ---
 
     Put here some description
 
     [:octicons-arrow-right-24: Reference](templates/sequence.md)
-	
 
-
-
--    :material-clipboard-check:{ .lg .middle } __UVM Scoreboard__
+- :material-clipboard-check:{ .lg .middle } __UVM Scoreboard__
 
     ---
 
@@ -141,7 +140,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/scoreboard.md)
 
--    :fontawesome-solid-chart-pie:{ .lg .middle } __Coverage__
+- :fontawesome-solid-chart-pie:{ .lg .middle } __Coverage__
 
     ---
 
@@ -149,7 +148,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](templates/coverage.md)
 
--    :material-connection:{ .lg .middle } __Interface__
+- :material-connection:{ .lg .middle } __Interface__
 
     ---
 
@@ -159,13 +158,11 @@ hide:
 
 </div>
 
-
 ## Register Abstraction Layer (RAL)
-
 
 <div class="grid cards" markdown>
 
--    :material-database:{ .lg .middle } __Register Model__
+- :material-database:{ .lg .middle } __Register Model__
 
     ---
 
@@ -173,7 +170,7 @@ hide:
 
     [:octicons-arrow-right-24: Reference](guidelines/resource-guide.md)
 
--    :material-cable-data:{ .lg .middle } __Adapter__
+- :material-cable-data:{ .lg .middle } __Adapter__
 
     ---
 

@@ -113,6 +113,8 @@ nav:
     - Guidelines:
       - uvm/guidelines/resource-guide.md
       - uvm/guidelines/coding-guidelines.md
+    - FAQ:
+      - uvm/faq/uvm_config_db.md
     - Templates:
       - uvm/templates/sequence-item.md
       - uvm/templates/sequencer.md
