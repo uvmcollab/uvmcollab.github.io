@@ -7,7 +7,7 @@ site_description: >-
 
 # Copyright
 copyright: >-
-  Copyright &copy; 2025 uvmcollab.
+  Copyright &copy; 2025 uvmcollab
 
 # Repository
 repo_name: uvmcollab
@@ -135,6 +135,14 @@ nav:
       - uvm/ral/adapter.md
   - IP blocks:
     - ip-blocks/index.md
+  - Skills:
+    - skills/index.md
+    - Git:
+      - skills/git/git-basics.md
+    - Makefile:
+      - skills/makefile/makefile-basics.md
+    - Python:
+      - skills/python/python-basics.md
   - Tools Guides:
     - tools-guides/index.md
     - Xilinx Vivado:
