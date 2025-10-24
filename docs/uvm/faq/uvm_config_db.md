@@ -22,19 +22,19 @@ objects between component objects in a UVM testbench.
 ## Methods
 
 <div class="justify" markdown>
-To understand better how to use the `get()` and `set()` methods first we can have a
-look at their definitions:
+To understand better how to use the `get()` and `set()` methods, let's first take a look at
+their definitions.
 </div>
 
 ### set
 
 ```sv linenums="1"
 static function void set(
-    uvm_component cntxt,
-    string        inst_name,
-    string        field_name,
-    T             value
-    );
+  uvm_component cntxt,
+  string        inst_name,
+  string        field_name,
+  T             value
+);
 ```
 
 #### Description
@@ -98,10 +98,10 @@ uvm_config_db#(int)::set(null, "uvm_test_top.m_env.m_agent.m_driver", "num_trans
 
 ```sv linenums="1"
 static function bit get(
-        uvm_component cntxt,
-        string        inst_name,
-        string        field_name,
-        inout T       value
+  uvm_component cntxt,
+  string        inst_name,
+  string        field_name,
+  inout T       value
 );
 ```
 
@@ -123,13 +123,12 @@ Returns 1 (true) if the value is found, 0 (false) otherwise.
 
 #### Notes
 
-
 ## Real examples
 
 ### 1. Connecting a UVM testbench to a DUT using the `uvm_config_db`
 
 From `tb.sv` we declare an interface called `rst_if()` and then we push into de `uvm_config_db` the
-interface 
+interface
 
 ```sv linenums="1" title="tb.sv"
 gpio_uvc_if rst_if ();
@@ -204,25 +203,18 @@ endfunction : build_phase
 
 - The `uvm_config_db::get()` method is a function that returns a bit value to indicate whether the object retrieval was been successful or not; this is tested to ensure that the testbench does not proceed if the lookup fails.
 
-
 ## Coding Guidelines
 
 <div class="justify" markdown>
 
 !!! tip "Tip"
 
-    - Use conditional compilation guards to avoid compiling the same include file more than once.
+    - No tip
     ```verilog
     var_name = transaction_type::type_id::create("var_name");
     ```
 
 </div>
-
-## Code Example
-
-```sv linenums="1" title="agent.sv"
---8<-- "docs/uvm/templates/codes/agent.sv"
-```
 
 ## Reference Material
 

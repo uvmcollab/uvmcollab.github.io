@@ -1,20 +1,14 @@
 # uvmcollab Website
 
-- [uvmcollab Website](#uvmcollab-website)
-  - [Website](#website)
-  - [About Us](#about-us)
-  - [Development](#development)
-  - [Contacts](#contacts)
-
-## Website
-
-## About Us
+- [www.uvmcollab.org](https://www.uvmcollab.org/)
 
 ## Development
 
 ```bash
 sudo apt install python3 python3-pip python3-venv
 ./scripts/setup_python_env.sh
+source .venv/bin/activate
+mkdocs serve --livereload
 ```
 
 ## Contacts
