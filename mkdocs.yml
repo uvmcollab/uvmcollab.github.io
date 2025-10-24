@@ -139,6 +139,8 @@ nav:
     - skills/index.md
     - Git:
       - skills/git/git-basics.md
+      - skills/git/git-ssh.md
+      - skills/git/git-flow.md
     - Makefile:
       - skills/makefile/makefile-basics.md
     - Python:
