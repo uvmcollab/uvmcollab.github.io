@@ -104,10 +104,10 @@ nav:
   - SV:
     - sv/index.md
     - Basics:
-      - sv/data-types.md
-      - sv/clocking-blocks.md
-      - sv/interfaces.md
-      - sv/threads.md
+      - sv/basics/data-types.md
+      - sv/basics/interfaces.md
+      - sv/basics/clocking-blocks.md
+      - sv/basics/threads.md
   - UVM:
     - uvm/index.md
     - Guidelines:
@@ -137,10 +137,12 @@ nav:
     - ip-blocks/index.md
   - Skills:
     - skills/index.md
-    - Git:
+    - Git / GitHub:
       - skills/git/git-basics.md
       - skills/git/git-ssh.md
+      - skills/git/github-project-flow.md
       - skills/git/git-flow.md
+      - skills/git/git-submodules.md
     - Makefile:
       - skills/makefile/makefile-basics.md
     - Python:
