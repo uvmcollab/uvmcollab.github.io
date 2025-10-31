@@ -14,4 +14,4 @@ hide:
 
 ## Summary
 
-The **UVM Sequence Item** is the base class for user-defined transactions that leverage the stimulus generation and control capabilities of the sequence-sequencer mechanism.
+
