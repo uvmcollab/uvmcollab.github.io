@@ -18,7 +18,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--    :material-file-code:{ .lg .middle } __SV (SystemVerilog)__
+- :material-file-code:{ .lg .middle } __SV (SystemVerilog)__
 
     ---
 
@@ -27,7 +27,7 @@ hide:
 
     [:octicons-arrow-right-24: Read more](sv/index.md)
 
--    :fontawesome-solid-microchip:{ .lg .middle } __UVM__
+- :fontawesome-solid-microchip:{ .lg .middle } __UVM__
 
     ---
 
@@ -36,17 +36,23 @@ hide:
 
     [:octicons-arrow-right-24: Read more](uvm/index.md)
 
--    :material-file-tree-outline:{ .lg .middle } __IP blocks__
+- :material-file-tree-outline:{ .lg .middle } __IP blocks__
 
     ---
 
     List of IP blocks to develop simulation verification environments using Universal Verification Methodology (UVM).
 
     [:octicons-arrow-right-24: Read more](ip-blocks/index.md)
-	
-	
 
--    :material-tools:{ .lg .middle } __Tools Guides__
+- :material-toolbox:{ .lg .middle } __Skills__
+
+    ---
+
+    Step-by-step manuals covering scripting, automation, and version control workflows with Git/GitHub, Makefiles, Tcl, and Python.
+
+    [:octicons-arrow-right-24: Read more](skills/index.md)
+
+- :material-tools:{ .lg .middle } __Tools Guides__
 
     ---
 
@@ -54,7 +60,7 @@ hide:
 
     [:octicons-arrow-right-24: Read more](tools-guides/index.md)
 
--    :fontawesome-solid-user-pen:{ .lg .middle } __Contacts__
+- :fontawesome-solid-user-pen:{ .lg .middle } __Contacts__
 
     ---
 

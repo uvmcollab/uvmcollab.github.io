@@ -2,7 +2,7 @@
 draft: false
 date: 2025-10-12
 description: >
-  Git Flow
+  Git Development Flow
 authors: Ciro Bermudez
 icon: material/git
 hide: 
@@ -10,61 +10,51 @@ hide:
 #  - toc
 ---
 
-# :material-git: Git development flow
+# :material-git: Git Development Flow
 
-## Git development flow
+A straightforward, day-to-day Git workflow to move from:
+**Branch creation → Development → Pull request → Merge**.
 
-Use Git [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+## 1. Standard Development Flow
 
-1. Create branch
-
+1. **Create a new branch**
+    - Use clear and consistent branch names, for example: 
 ```bash
 git switch -c feat/uvc-monitor-logic
-# ot
-git branch feat/uvc-monitor-logic && git switch feat/uvc-monitor-logic
 ```
-
-2. Work, add, commit (small commits, Conventional Commits)
-
+2. **Work, add, and commit your changes** 
+    - Follow [Conventinal Commits](https://www.conventionalcommits.org/en/v1.0.0/) to maintain clarity and consistency
 ```bash
-git add monitor.sv
-git commit -m "feat: add monitor logic"
+git add gpio_uvc_monitor.sv
+git commit -m "feat: add gpio_uvc monitor logic"
 ```
-
-3. Push your branch to GitHub
-
+3. **Push your branch to GitHub**
 ```bash
 git push -u origin feat/uvm-monitor-logic
 ```
-
-4. Open **Pull Request** in GitHub.
-
-   - Use a clear Conventional Commit PR tittle
-   - Push more commits as needed
-
-5. Merge **Pull Request**
-
-    - Use yout team's choice (Merge commits/Squash)
-    - Click **Delete branch** in GitHub
-
-6. Clean up locally and prune stale remotes
-
+4. **Open Pull Request (PR) in GitHub**
+    - GitHub usually suggests this automatically
+    - Make sure the PR title is clear and follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+    - Add a concise description summarizing the changes
+    - Push additional commits as needed before merging
+5. **Merge Pull Request**
+    - Wait for review and approval
+    - Merge using your team's policy (Squash, Merge or Rebase)
+    - Click **Delete branch** in GitHub after merging
+6. **Clean up locally and prune stale remotes**
 ```bash
 git switch main
 git fetch --prune origin
 git branch -D feat/uvm-monitor-logic
 ```
-
-7. Sync your local `main` branch (fast-forward only)
-
+7. **Sync your local `main` branch**
 ```bash
 git pull --ff-only origin main
 ```
 
-## Bring changes from `main` into a feature branch
+## 2. Bring changes from `main` into a feature branch
 
-When working on a feature branch, you often need to update it with the latest changes from `main`.
-The recommended approach is:
+When your feature branch becomes outdated, update it with the latest commits from `main`:
 
 ```bash
 git switch feat/branch
@@ -75,7 +65,12 @@ git merge origin/main
 
 ## Reference Material
 
-### Git
+**Git**
 
 - [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Git Reference](https://git-scm.com/docs)
 - [Git Cheat Sheet](https://git-scm.com/cheat-sheet)
+
+**Guidelines**
+
+- [Conventinal Commits](https://www.conventionalcommits.org/en/v1.0.0/)

@@ -12,7 +12,7 @@ hide:
 
 # :material-toolbox: Skills
 
-## Git
+## Git / GitHub
 
 <div class="grid cards" markdown>
 
@@ -23,6 +23,38 @@ hide:
     Put here some description
 
     [:octicons-arrow-right-24: Reference](git/git-basics.md)
+
+- :material-git:{ .lg .middle } __Generate and Configure a Git SSH key__
+
+    ---
+
+    Put here some description
+
+    [:octicons-arrow-right-24: Reference](git/git-ssh.md)
+
+- :material-github:{ .lg .middle } __GitHub Project Flow__
+
+    ---
+
+    Put here some description
+
+    [:octicons-arrow-right-24: Reference](git/github-project-flow.md)
+
+- :material-git:{ .lg .middle } __Git development flow__
+
+    ---
+
+    Put here some description
+
+    [:octicons-arrow-right-24: Reference](git/git-flow.md)
+
+- :material-git:{ .lg .middle } __Git Submodules__
+
+    ---
+
+    Put here some description
+
+    [:octicons-arrow-right-24: Reference](git/git-submodules.md)
 
 </div>
 
