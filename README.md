@@ -22,3 +22,4 @@ mkdocs serve --livereload
 ## References
 
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [MkDocs - Emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
