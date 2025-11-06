@@ -18,3 +18,7 @@ mkdocs serve --livereload
 | Ciro Fabian Bermudez Marquez  | <cirofabian.bermudez@gmail.com> | INFN Bari |
 | Luis Enrique Namigtle Jimenez | <namigtle066@gmail.com>         | INAOE     |
 | Miguel Angel Aleman Arce      | <alemanmig@gmail.com>           | CIC IPN   |
+
+## References
+
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
