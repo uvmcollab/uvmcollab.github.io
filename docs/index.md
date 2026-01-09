@@ -1,71 +1,166 @@
 ---
-draft: false
-date: 2025-01-05
-description: >
-  Home
-authors: Ciro Bermudez
-icon: material/home
-hide: 
-  - navigation
-  - toc
+icon: lucide/rocket
 ---
 
-# :material-home: Home
+# Get started
 
-<div class="justify" markdown>
+For full documentation visit [zensical.org](https://zensical.org/docs/).
 
-</div>
+## Commands
 
-<div class="grid cards" markdown>
+* [`zensical new`][new] - Create a new project
+* [`zensical serve`][serve] - Start local web server
+* [`zensical build`][build] - Build your site
 
-- :material-file-code:{ .lg .middle } __SV (SystemVerilog)__
+  [new]: https://zensical.org/docs/usage/new/
+  [serve]: https://zensical.org/docs/usage/preview/
+  [build]: https://zensical.org/docs/usage/build/
 
-    ---
+## Examples
 
-    Read about SystemVerilog language features from the LRM, coding examples, OOP, etc.
-    </br>
+### Admonitions
 
-    [:octicons-arrow-right-24: Read more](sv/index.md)
+> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
 
-- :fontawesome-solid-microchip:{ .lg .middle } __UVM__
+!!! note
 
-    ---
+    This is a **note** admonition. Use it to provide helpful information.
 
-    Read about Coding Guidelines, Templates, UVCs, Coverage, Register Model, etc.
-    </br>
+!!! warning
 
-    [:octicons-arrow-right-24: Read more](uvm/index.md)
+    This is a **warning** admonition. Be careful!
 
-- :material-file-tree-outline:{ .lg .middle } __IP blocks__
+### Details
 
-    ---
+> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
 
-    List of IP blocks to develop simulation verification environments using Universal Verification Methodology (UVM).
+??? info "Click to expand for more info"
+    
+    This content is hidden until you click to expand it.
+    Great for FAQs or long explanations.
 
-    [:octicons-arrow-right-24: Read more](ip-blocks/index.md)
+## Code Blocks
 
-- :material-toolbox:{ .lg .middle } __Skills__
+> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
 
-    ---
+``` python hl_lines="2" title="Code blocks"
+def greet(name):
+    print(f"Hello, {name}!") # (1)!
 
-    Step-by-step manuals covering scripting, automation, and version control workflows with Git/GitHub, Makefiles, Tcl, and Python.
+greet("Python")
+```
 
-    [:octicons-arrow-right-24: Read more](skills/index.md)
+1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
 
-- :material-tools:{ .lg .middle } __Tools Guides__
+    Code annotations allow to attach notes to lines of code.
 
-    ---
+Code can also be highlighted inline: `#!python print("Hello, Python!")`.
 
-    Scripts, Makefiles and documentation about simulation tools from the major vendors.
+## Content tabs
 
-    [:octicons-arrow-right-24: Read more](tools-guides/index.md)
+> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
 
-- :fontawesome-solid-user-pen:{ .lg .middle } __Contacts__
+=== "Python"
 
-    ---
+    ``` python
+    print("Hello from Python!")
+    ```
 
-    Contact our team.
+=== "Rust"
 
-    [:octicons-arrow-right-24: Read more](contacts/index.md)
+    ``` rs
+    println!("Hello from Rust!");
+    ```
 
-</div>
+## Diagrams
+
+> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+## Footnotes
+
+> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
+
+Here's a sentence with a footnote.[^1]
+
+Hover it, to see a tooltip.
+
+[^1]: This is the footnote.
+
+
+## Formatting
+
+> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
+
+- ==This was marked (highlight)==
+- ^^This was inserted (underline)^^
+- ~~This was deleted (strikethrough)~~
+- H~2~O
+- A^T^A
+- ++ctrl+alt+del++
+
+## Icons, Emojis
+
+> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
+
+* :sparkles: `:sparkles:`
+* :rocket: `:rocket:`
+* :tada: `:tada:`
+* :memo: `:memo:`
+* :eyes: `:eyes:`
+
+## Maths
+
+> Go to [documentation](https://zensical.org/docs/authoring/math/)
+
+$$
+\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
+$$
+
+!!! warning "Needs configuration"
+    Note that MathJax is included via a `script` tag on this page and is not
+    configured in the generated default configuration to avoid including it
+    in a pages that do not need it. See the documentation for details on how
+    to configure it on all your pages if they are more Maths-heavy than these
+    simple starter pages.
+
+<script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [["\\(", "\\)"]],
+      displayMath: [["\\[", "\\]"]],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      ignoreHtmlClass: ".*|",
+      processHtmlClass: "arithmatex"
+    }
+  };
+</script>
+
+## Task Lists
+
+> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
+
+* [x] Install Zensical
+* [x] Configure `zensical.toml`
+* [x] Write amazing documentation
+* [ ] Deploy anywhere
+
+## Tooltips
+
+> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
+
+[Hover me][example]
+
+  [example]: https://example.com "I'm a tooltip!"
