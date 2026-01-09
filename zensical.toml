@@ -49,14 +49,48 @@ Copyright &copy; 2026 uvmcollab
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+  { "Home" = [
+      {"Home" = "home.md"}
+  ]},
+  { "SV" =  [
+      {"Get started" = "sv/get-started.md"},
+      {"Resource guide" = "sv/resource-guide.md"},
+  ]},
+  { "UVM" =  [
+      {"Get started" = "uvm/get-started.md"},
+      { "Guidelines" = [
+        "uvm/guidelines/resource-guide.md",
+        "uvm/guidelines/coding-guidelines.md",
+      ]},
+  ]},
+  { "IP Blocks" =  [
+      {"IP blocks" = "ip-blocks/ip-blocks.md"},
+  ]},
+  { "Skills" =  [
+      {"Skills" = "skills/skills.md"},
+  ]},
+  { "Tool Guides" =  [
+      {"Tool Guides" = "tool-guides/tool-guides.md"},
+  ]},
+  { "About" =  [
+      { "About" = "about/about.md" },
+      { "Contacts" = "about/contacts.md" },
+  ]},
+
 ]
 
 # In order to display a link to the repository of your project as part of your
 # documentation, set "repo_url" in your configuration to the public URL of your
 # repository.
-repo_url = "https://github.com/uvmcollab/uvmcollab.github.io/tree/feat/migration"
+#
+# Read more: https://zensical.org/docs/setup/repository/#code-actions
+repo_url = "https://github.com/uvmcollab/uvmcollab.github.io"
+
+# Zensical will infer the source provider by examining the URL and try to set
+# the repository name automatically. If you wish to customize the name, set
+# "repo_name" in your configuration:
+#
+# Read more: https://zensical.org/docs/setup/repository/#code-actions
 repo_name = "uvmcollab"
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -189,6 +223,7 @@ features = [
     # https://zensical.org/docs/setup/navigation/#section-index-pages
     "navigation.indexes",
 
+
     # When instant navigation is enabled, clicks on all internal links will be
     # intercepted and dispatched via XHR without fully reloading the page.
     # https://zensical.org/docs/setup/navigation/#instant-navigation
@@ -205,11 +240,6 @@ features = [
     # https://zensical.org/docs/setup/navigation/#progress-indicator
     #"navigation.instant.progress",
 
-    # When navigation paths are activated, a breadcrumb navigation is rendered
-    # above the title of each page
-    # https://zensical.org/docs/setup/navigation/#navigation-path
-    "navigation.path",
-
     # When pruning is enabled, only the visible navigation items are included
     # in the rendered HTML, reducing the size of the built site by 33% or more.
     # https://zensical.org/docs/setup/navigation/#navigation-pruning
@@ -223,12 +253,12 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
     # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
-    #"navigation.tabs.sticky",
+    # "navigation.tabs.sticky",
 
     # A back-to-top button can be shown when the user, after scrolling down,
     # starts to scroll up again.
@@ -309,8 +339,7 @@ toggle.name = "Switch to dark mode"
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-#[[project.extra.social]]
-#icon = "fontawesome/brands/github"
-#link = "https://github.com/user/repo"
-
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/uvmcollab/uvmcollab.github.io"
 
