@@ -1,5 +1,5 @@
 ---
-icon: lucide/rocket
+icon: material/book-open-page-variant
 ---
 
 # Resource guide

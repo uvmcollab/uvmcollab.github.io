@@ -63,8 +63,11 @@ nav = [
         "uvm/guidelines/resource-guide.md",
         "uvm/guidelines/coding-guidelines.md",
       ]},
+      { "UVC Templates" = [
+        {"Sequence Item" = "uvm/uvc-templates/sequence-item.md"},
+      ]},
       { "Advanced Techniques" = [
-        "uvm/advanced-techniques/hdl-backdoor-access.md",
+        {"HDL Backdoor Access" = "uvm/advanced-techniques/hdl-backdoor-access.md"},
       ]},
   ]},
   { "IP Blocks" =  [
@@ -72,6 +75,15 @@ nav = [
   ]},
   { "Skills" =  [
       {"Skills" = "skills/skills.md"},
+      { "Git" = [
+        {"Basics" = "skills/git/git-basics.md"},
+        {"Generate a SSH key" = "skills/git/git-ssh.md"},
+        {"Developmet Flow" = "skills/git/git-flow.md"},
+        {"Submodules" = "skills/git/git-submodules.md"},
+      ]},
+      { "GitHub" = [
+        {"Project Flow" = "skills/git/github-project-flow.md"},
+      ]},
   ]},
   { "Tool Guides" =  [
       {"Tool Guides" = "tool-guides/tool-guides.md"},
