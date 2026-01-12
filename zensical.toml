@@ -50,7 +50,8 @@ Copyright &copy; 2026 uvmcollab
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Home" = [
-      {"Home" = "home.md"}
+      "index.md",
+      {"Home" = "home/home.md"},
   ]},
   { "SV" =  [
       {"Get started" = "sv/get-started.md"},
@@ -223,6 +224,11 @@ features = [
     # https://zensical.org/docs/setup/navigation/#section-index-pages
     "navigation.indexes",
 
+    # When navigation paths are activated, a breadcrumb navigation is rendered
+    # above the title of each page, which might make orientation easier for
+    # users visiting your documentation on devices with smaller screens.
+    # Add the following lines to your configuration:
+    "navigation.path",
 
     # When instant navigation is enabled, clicks on all internal links will be
     # intercepted and dispatched via XHR without fully reloading the page.
