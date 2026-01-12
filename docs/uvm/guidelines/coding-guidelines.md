@@ -1,13 +1,5 @@
 ---
-draft: false
-date: 2025-01-05
-description: >
-  UVM Guidelines
-authors: Ciro Bermudez
 icon: fontawesome/solid/ruler
-hide: 
-#  - navigation
-#  - toc
 ---
 
 # UVM Coding Guidelines

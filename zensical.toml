@@ -63,6 +63,9 @@ nav = [
         "uvm/guidelines/resource-guide.md",
         "uvm/guidelines/coding-guidelines.md",
       ]},
+      { "Advanced Techniques" = [
+        "uvm/advanced-techniques/hdl-backdoor-access.md",
+      ]},
   ]},
   { "IP Blocks" =  [
       {"IP blocks" = "ip-blocks/ip-blocks.md"},
