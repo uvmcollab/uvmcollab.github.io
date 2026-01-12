@@ -27,6 +27,9 @@ icon: lucide/rocket
 
 ### SVA (SystemVerilog Assertions)
 
+- [_A. B. Mehta_, **System Verilog Assertions and Functional Coverage: Guide to Language, Methodology and Applications**, 3rd ed. 2020. in Springer eBooks Engineering. Cham: Springer, 2020. doi: 10.1007/978-3-030-24737-9.](https://link.springer.com/book/10.1007/978-3-030-24737-9)
+- [_E. Cerny, S. Dudani, J. Havlicek, and D. Korchemny_, **SVA: The Power of Assertions in SystemVerilog**, 2nd ed. 2015. Cham: Springer, 2015.](https://link.springer.com/book/10.1007/978-3-319-07139-8)
+
 ## LRM (Language Reference Manual)
 
 - [1364-2005](https://ieeexplore.ieee.org/document/1620780) - IEEE Standard for Verilog Hardware Description Language
