@@ -2,7 +2,7 @@
 icon: lucide/rocket
 ---
 
-# Get started
+# SystemVerilog
 
 <div class="grid cards" markdown>
 

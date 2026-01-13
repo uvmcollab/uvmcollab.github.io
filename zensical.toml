@@ -53,11 +53,13 @@ nav = [
       "index.md",
   ]},
   { "SV" =  [
-      {"Get started" = "sv/get-started.md"},
-      {"Resource guide" = "sv/resource-guide.md"},
+      {"SystemVerilog" = "sv/systemverilog.md"},
+      { "Guidelines" = [
+        {"Resource guide" = "sv/resource-guide.md"},
+      ]},
   ]},
   { "UVM" =  [
-      {"Get started" = "uvm/get-started.md"},
+      {"UVM" = "uvm/uvm.md"},
       { "Guidelines" = [
         "uvm/guidelines/resource-guide.md",
         "uvm/guidelines/coding-guidelines.md",
@@ -86,6 +88,9 @@ nav = [
   ]},
   { "Tool Guides" =  [
       {"Tool Guides" = "tool-guides/tool-guides.md"},
+      { "Synopsys" = [
+        {"Tools" = "tool-guides/synopsys/synopsys-tools.md"},
+      ]},
   ]},
   { "About" =  [
       { "About" = "about/about.md" },
