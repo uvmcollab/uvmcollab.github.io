@@ -1,7 +1,11 @@
 [project]
 name = "uvmcollab-github-io"
 version = "0.1.0"
-description = "Add your description here"
+description = """
+Source repository for the UVM-Collab documentation site, 
+a unified reference for verification frameworks, tools, 
+and guidelines.
+""""
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
