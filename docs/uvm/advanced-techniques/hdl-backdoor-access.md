@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/ruler
+icon: material/door-open
 ---
 
 # UVM HDL Backdoor Access

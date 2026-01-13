@@ -77,7 +77,7 @@ nav = [
       {"Skills" = "skills/skills.md"},
       { "Git" = [
         {"Basics" = "skills/git/git-basics.md"},
-        {"Generate a SSH key" = "skills/git/git-ssh.md"},
+        {"Generate an SSH key" = "skills/git/git-ssh.md"},
         {"Developmet Flow" = "skills/git/git-flow.md"},
         {"Submodules" = "skills/git/git-submodules.md"},
       ]},
