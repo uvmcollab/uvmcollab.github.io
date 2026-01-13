@@ -55,7 +55,10 @@ nav = [
   { "SV" =  [
       {"SystemVerilog" = "sv/systemverilog.md"},
       { "Guidelines" = [
-        {"Resource guide" = "sv/resource-guide.md"},
+        {"Resource guide" = "sv/guidelines/resource-guide.md"},
+      ]},
+      { "Configuration" = [
+        {"Command Line" = "sv/cli.md"},
       ]},
   ]},
   { "UVM" =  [
