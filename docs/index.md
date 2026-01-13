@@ -13,7 +13,7 @@ icon: material/home
     Read about SystemVerilog language features from the LRM, coding examples, OOP, etc.
     </br>
 
-    [:octicons-arrow-right-24: Read more](sv/get-started.md)
+    [:octicons-arrow-right-24: Read more](sv/systemverilog.md)
 
 - :fontawesome-solid-microchip:{ .lg .middle } __UVM__
 
@@ -22,7 +22,7 @@ icon: material/home
     Read about Coding Guidelines, Templates, UVCs, Coverage, Register Model, etc.
     </br>
 
-    [:octicons-arrow-right-24: Read more](uvm/get-started.md)
+    [:octicons-arrow-right-24: Read more](uvm/uvm.md)
 
 - :material-file-tree-outline:{ .lg .middle } __IP blocks__
 

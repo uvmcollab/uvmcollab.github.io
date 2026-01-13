@@ -106,6 +106,15 @@ nav = [
 # Read more: https://zensical.org/docs/setup/repository/#code-actions
 repo_url = "https://github.com/uvmcollab/uvmcollab.github.io"
 
+# If you use a custom branch name or docs_dir, you will need to change the path
+# component of the URLs within the repository. Zensical allows you to set "edit_uri"
+# to override the default behavior. To form the URL, Zensical concatenates 
+# the "repo_url", the paths configured here, and the path of the Markdown file
+# in the docs_dir.
+#
+# Read more: https://zensical.org/docs/setup/repository/#edit_uri
+edit_uri = "https://github.com/uvmcollab/uvmcollab.github.io/edit/main/docs"
+
 # Zensical will infer the source provider by examining the URL and try to set
 # the repository name automatically. If you wish to customize the name, set
 # "repo_name" in your configuration:
