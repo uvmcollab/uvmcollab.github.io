@@ -1,16 +1,8 @@
 ---
-draft: false
-date: 2025-10-12
-description: >
-  Git Development Flow
-authors: Ciro Bermudez
 icon: material/git
-hide: 
-#  - navigation
-#  - toc
 ---
 
-# :material-git: Git Development Flow
+# Git Development Flow
 
 A straightforward, day-to-day Git workflow to move from:
 **Branch creation → Development → Pull request → Merge**.

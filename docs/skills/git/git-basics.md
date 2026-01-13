@@ -1,16 +1,8 @@
 ---
-draft: false
-date: 2025-10-12
-description: >
-  Git Basics
-authors: Ciro Bermudez
 icon: material/git
-hide: 
-#  - navigation
-#  - toc
 ---
 
-# :material-git: Git Basics
+# Git Basics
 
 A quick reference to configure Git, clone repositories, and manage branches efficiently.
 

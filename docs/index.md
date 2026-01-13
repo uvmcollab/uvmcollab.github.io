@@ -1,20 +1,10 @@
 ---
-draft: false
-date: 2025-01-05
-description: >
-  Home
-authors: Ciro Bermudez
-icon: material/home
-hide: 
+icon: lucide/rocket
+hide:
   - navigation
-  - toc
 ---
 
-# :material-home: Home
-
-<div class="justify" markdown>
-
-</div>
+# Home
 
 <div class="grid cards" markdown>
 
@@ -25,7 +15,7 @@ hide:
     Read about SystemVerilog language features from the LRM, coding examples, OOP, etc.
     </br>
 
-    [:octicons-arrow-right-24: Read more](sv/index.md)
+    [:octicons-arrow-right-24: Read more](sv/get-started.md)
 
 - :fontawesome-solid-microchip:{ .lg .middle } __UVM__
 
@@ -34,7 +24,7 @@ hide:
     Read about Coding Guidelines, Templates, UVCs, Coverage, Register Model, etc.
     </br>
 
-    [:octicons-arrow-right-24: Read more](uvm/index.md)
+    [:octicons-arrow-right-24: Read more](uvm/get-started.md)
 
 - :material-file-tree-outline:{ .lg .middle } __IP blocks__
 
@@ -42,7 +32,7 @@ hide:
 
     List of IP blocks to develop simulation verification environments using Universal Verification Methodology (UVM).
 
-    [:octicons-arrow-right-24: Read more](ip-blocks/index.md)
+    [:octicons-arrow-right-24: Read more](ip-blocks/ip-blocks.md)
 
 - :material-toolbox:{ .lg .middle } __Skills__
 
@@ -50,7 +40,7 @@ hide:
 
     Step-by-step manuals covering scripting, automation, and version control workflows with Git/GitHub, Makefiles, Tcl, and Python.
 
-    [:octicons-arrow-right-24: Read more](skills/index.md)
+    [:octicons-arrow-right-24: Read more](skills/skills.md)
 
 - :material-tools:{ .lg .middle } __Tools Guides__
 
@@ -58,7 +48,7 @@ hide:
 
     Scripts, Makefiles and documentation about simulation tools from the major vendors.
 
-    [:octicons-arrow-right-24: Read more](tools-guides/index.md)
+    [:octicons-arrow-right-24: Read more](tool-guides/tool-guides.md)
 
 - :fontawesome-solid-user-pen:{ .lg .middle } __Contacts__
 
@@ -66,6 +56,6 @@ hide:
 
     Contact our team.
 
-    [:octicons-arrow-right-24: Read more](contacts/index.md)
+    [:octicons-arrow-right-24: Read more](about/contacts.md)
 
 </div>

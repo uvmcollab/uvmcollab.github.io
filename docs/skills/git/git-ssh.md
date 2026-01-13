@@ -1,16 +1,8 @@
 ---
-draft: false
-date: 2025-10-12
-description: >
-  Generate and Configure a Git SSH Key
-authors: Ciro Bermudez
 icon: material/git
-hide: 
-#  - navigation
-#  - toc
 ---
 
-# :material-git: Generate and Configure a Git SSH key
+# Generate and Configure a Git SSH key
 
 You can connect to GitHub using either **HTTPS** or **SSH**.
 Both methods are secure, but they differ in how they handle authentication:

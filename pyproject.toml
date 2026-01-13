@@ -1,13 +1,13 @@
 [project]
-name = "uvmcollab"
+name = "uvmcollab-github-io"
 version = "0.1.0"
-authors = [
-    { name = "Ciro Fabian Bermudez Marquez", email = "cirofabian.bermudez@gmail.com" },
-    { name = "Luis Enrique Namigtle Jimenez", email = "namigtle066@gmail.com" }
-]
+description = """
+Source repository for the UVM-Collab documentation site, 
+a unified reference for verification frameworks, tools, 
+and guidelines.
+""""
 readme = "README.md"
-description = "A reference webpage for UVM users"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
-    "mkdocs-material >= 9.6",
+    "zensical>=0.0.15",
 ]

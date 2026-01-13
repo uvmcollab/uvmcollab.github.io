@@ -1,16 +1,8 @@
 ---
-draft: false
-date: 2025-10-12
-description: >
-  Git Submodules
-authors: Ciro Bermudez
 icon: material/git
-hide: 
-#  - navigation
-#  - toc
 ---
 
-# :material-git: Git Submodules
+# Git Submodules
 
 Git **submodules** let you include one repository inside another.
 They are commonly used when a project depends on **shared libraries**, **frameworks**, or **verification components** maintained in separate repositories.

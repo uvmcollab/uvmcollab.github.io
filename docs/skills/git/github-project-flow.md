@@ -1,16 +1,8 @@
 ---
-draft: false
-date: 2025-10-12
-description: >
-  GitHub Project Flow
-authors: Ciro Bermudez
 icon: material/github
-hide: 
-#  - navigation
-#  - toc
 ---
 
-# :material-github: GitHub Project Flow
+# GitHub Project Flow
 
 A concise guide to move efficiently from **Project Issue → Branch → Pull Request → Merge**, keeping full traceability between your code and project tasks.
 
