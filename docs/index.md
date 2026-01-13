@@ -1,7 +1,5 @@
 ---
-icon: lucide/rocket
-hide:
-  - navigation
+icon: material/home
 ---
 
 # Home

@@ -51,7 +51,6 @@ Copyright &copy; 2026 uvmcollab
 nav = [
   { "Home" = [
       "index.md",
-      {"Home" = "home/get-started.md"},
   ]},
   { "SV" =  [
       {"Get started" = "sv/get-started.md"},
