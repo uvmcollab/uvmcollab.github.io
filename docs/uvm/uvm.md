@@ -36,7 +36,7 @@ icon: lucide/rocket
 
     The UVM Sequence Item is the base class for user-defined transactions used by sequences and sequencers to generate and control stimulus.
 
-    [:octicons-arrow-right-24: Read more](guidelines/coding-guidelines.md)
+    [:octicons-arrow-right-24: Read more](uvc-templates/sequence-item.md)
 
 </div>
 
@@ -50,6 +50,6 @@ icon: lucide/rocket
 
     Provides a mechanism to read and write DUT signals and registers directly, bypassing the bus interface.
 
-    [:octicons-arrow-right-24: Read more](guidelines/coding-guidelines.md)
+    [:octicons-arrow-right-24: Read more](advanced-techniques/hdl-backdoor-access.md)
 
 </div>
