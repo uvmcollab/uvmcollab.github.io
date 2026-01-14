@@ -75,6 +75,7 @@ and verification community.
 - [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
 - [RTLHub](https://rtlhub.com/)
 - [ChipDev](https://chipdev.io/)
+- [Logicode](https://logi-code.com/)
 
 ## Tools
 
