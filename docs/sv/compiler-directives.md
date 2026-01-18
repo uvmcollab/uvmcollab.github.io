@@ -207,3 +207,7 @@ This combines:
 - [IEEE 1800-2023: 22.4 ``` `include```](https://ieeexplore.ieee.org/document/10458102)
 - [IEEE 1800-2023: 22.6 ``` `ifdef``` ``` `else```, ``` `elsif```, ``` `endif```, ``` `ifndef```](https://ieeexplore.ieee.org/document/10458102)
 - [IEEE 1800-2023: 22.8 ``` `default_nettype```](https://ieeexplore.ieee.org/document/10458102)
+
+**Websites**
+
+- [ZipCPU: Verilog Tutorial - Wires, and combinatorial logic (page 26)](https://zipcpu.com/tutorial/lsn-01-wires.pdf#page=29)
