@@ -69,12 +69,15 @@ and verification community.
 - [The FOSSi Foundation](https://fossi-foundation.org/)
 - [Symbiotic EDA](https://www.symbioticeda.com/)
 - [DVCon](https://dvcon-proceedings.org/)
+- [SystemVerilog.io](https://www.systemverilog.io/)
+- [Circuit Cove](https://circuitcove.com/)
 
 ## Practice Platforms
 
 - [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)
 - [RTLHub](https://rtlhub.com/)
 - [ChipDev](https://chipdev.io/)
+- [Logicode](https://logi-code.com/)
 
 ## Tools
 
