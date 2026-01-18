@@ -58,7 +58,8 @@ nav = [
         {"Resource guide" = "sv/guidelines/resource-guide.md"},
       ]},
       { "Configuration" = [
-        {"Command Line" = "sv/cli.md"},
+        {"Command line" = "sv/command-line-config.md"},
+        {"Compiler directives" = "sv/compiler-directives.md"},
       ]},
   ]},
   { "UVM" =  [

@@ -67,7 +67,7 @@ parameters.
 
 For feature toggles or debug switches, `$test$plusargs()` is often sufficient:
 
-```systemverilog linenums="1"
+```systemverilog
 bit enable_debug;
 
 initial begin
@@ -106,7 +106,7 @@ The format specifiers follow the same rules as the `$display` system task and co
 
 ## Best Practices
 
-!!! tip "Best Practices"
+!!! tip "Tips"
 
     - **Provide defaults**: Always define a safe default value if a plusarg is missing.
     - **Log resolved values**: Print the final configuration at startup to make runs reproducible.
