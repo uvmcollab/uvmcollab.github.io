@@ -69,6 +69,8 @@ and verification community.
 - [The FOSSi Foundation](https://fossi-foundation.org/)
 - [Symbiotic EDA](https://www.symbioticeda.com/)
 - [DVCon](https://dvcon-proceedings.org/)
+- [SystemVerilog.io](https://www.systemverilog.io/)
+- [Circuit Cove](https://circuitcove.com/)
 
 ## Practice Platforms
 
