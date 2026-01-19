@@ -1,5 +1,5 @@
 ---
-icon: material/book-open-page-variant
+icon: material/console
 ---
 
 # Command Line Configuration
@@ -87,7 +87,6 @@ Usage:
 ## Supported Format Specifiers
 
 The format specifiers follow the same rules as the `$display` system task and control how the value is converted.
-
 
 | Format | Meaning                         | Example plusarg   |
 | :----: | ------------------------------- | ----------------- |

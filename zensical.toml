@@ -57,6 +57,11 @@ nav = [
       { "Guidelines" = [
         {"Resource guide" = "sv/guidelines/resource-guide.md"},
       ]},
+      { "Basics" = [
+        {"Data types" = "sv/data-types.md"},
+        {"Constants" = "sv/constants.md"},
+        {"Clock" = "sv/clock-guide.md"},
+      ]},
       { "Configuration" = [
         {"Command line" = "sv/command-line-config.md"},
         {"Compiler directives" = "sv/compiler-directives.md"},

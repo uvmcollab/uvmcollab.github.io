@@ -1,5 +1,5 @@
 ---
-icon: material/book-open-page-variant
+icon: material/code-tags
 ---
 
 # Compiler directives
