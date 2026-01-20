@@ -66,6 +66,12 @@ Conceptually:
     `include "../../../../uvmcollab/common.sv"
     ```
 
+to add directories to the search path you can use the `+incdir+<directory>` compile-time flag:
+
+```bash
+vcs +incdir+rtl +incdir+sva +incdir+tests +incdir+tb
+```
+
 ## Header Guard Pattern
 
 A common pattern is to read plusargs at the start of the simulation and fall back to sensible
