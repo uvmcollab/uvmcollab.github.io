@@ -32,6 +32,40 @@ They are typically used to:
 - Enable or disable features at compile time
 - Enforce strict coding rules
 
+## File Inclusion
+
+The ``` `include``` compiler directive inserts the full contents of another source file at compile time. Conceptually, it’s as if the included file’s text appeared exactly where the ``` `include``` line is written.
+
+This is commonly used for:
+
+- Shared `typedef` / `parameter` / `localparam`
+- Macros (`define`) and small utility headers
+- Interfaces / package fragments when you want header-style reuse
+
+Syntax:
+
+```systemverilog
+`include "filename.sv"
+```
+
+Most simulators let you add include search paths (the exact flag varies by tool).
+Conceptually:
+
+- Add include directories to the tool's **include path**
+- Keep your includes short and stable:
+
+=== "Good"
+
+    ```systemverilog
+    `include "uvmcollab/common.sv"
+    ```
+
+=== "Bad"
+
+    ``` systemverilog
+    `include "../../../../uvmcollab/common.sv"
+    ```
+
 ## Header Guard Pattern
 
 A common pattern is to read plusargs at the start of the simulation and fall back to sensible
