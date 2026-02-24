@@ -48,6 +48,14 @@ icon: material/home
 
     [:octicons-arrow-right-24: Read more](tool-guides/tool-guides.md)
 
+- :material-briefcase-search:{ .lg .middle } __Jobs__
+
+    ---
+
+    Curated hardware verification and semiconductor job opportunities, including ASIC, FPGA, UVM, and system-level roles.
+
+    [:octicons-arrow-right-24: Read more](jobs/jobs.md)
+
 - :fontawesome-solid-user-pen:{ .lg .middle } __Contacts__
 
     ---
