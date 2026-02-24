@@ -70,7 +70,6 @@ endclass : cfg
     - `localparam` for internal derived constants
     - and `const` to enforce read-only behavior in run-time objects and classes.
 
-
 ## Reference Material
 
 **LRM**

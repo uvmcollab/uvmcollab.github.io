@@ -37,9 +37,6 @@ SystemVerilog provides several integer data type:
 | `real`      | Yes              | 64 bits | IEEE-754 double   | Continuous | `0.0`         |
 | `realtime`  | Yes              | 64 bits | IEEE-754 double   | Continuous | `0.0`         |
 
-## String data type
-
-## Enumerated data types
 
 ## Reference Material
 

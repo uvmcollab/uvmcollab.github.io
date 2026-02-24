@@ -64,9 +64,6 @@ $timeformat(-9, 3, " ns", 10);
 |  -5   |         10 us          |  -14  | 10 fs                  |
 |  -6   |          1 us          |  -15  | 1 fs                   |
 
-## Overview
-
-
 ## Reference Material
 
 **LRM**
