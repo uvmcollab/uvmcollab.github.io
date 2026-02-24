@@ -108,6 +108,10 @@ possible, both the **official website** and the **source repository** are provid
     - [GitHub repository](https://github.com/YosysHQ/sby)
     - [Documentation](https://yosyshq.readthedocs.io/projects/sby/en/latest/)
     
+## Libraries
+
+- [Open Logic - A VHDL Standard Library](https://github.com/open-logic/open-logic)
+
 ## Documentation & Diagrams
 
 - [Wavedrom](https://wavedrom.com/) - Timing and waveform diagrams
