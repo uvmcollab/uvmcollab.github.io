@@ -21,6 +21,7 @@ UVM development easier and less error‑prone:
 
 - [**Easier UVM Coding Guidelines (Doulos)**](https://www.doulos.com/media/1277/easier-uvm-coding-guidelines-2016-06-24.pdf): A concise, experience‑driven set of recommendations covering structure, naming, phasing, and common pitfalls.
 - [**Verification Academy - UVM Coding Guidelines**](https://verificationacademy.com/cookbook/uvm-universal-verification-methodology/uvm-guidelines/): Guidelines and best practices from the Verification Academy’s UVM community resources.
+    - [**UVM Golden Reference Guide - Sample Code Fragments**](https://www.doulos.com/grg-exclusive/uvm-golden-reference-guide-resources/uvm-golden-reference-guide-examples/)
 
 ## Style Guides
 
