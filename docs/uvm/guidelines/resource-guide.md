@@ -53,8 +53,15 @@ icon: material/book-open-page-variant
 
 ## Articles
 
+### DVCON
+
 - [UVM Rapid Adoption: A Practical Subset of UVM pdf](https://dvcon-proceedings.org/wp-content/uploads/uvm-rapid-adoption-a-practical-subset-of-uvm-paper.pdf)
 - [UVM Rapid Adoption: A Practical Subset of UVM presentation](https://dvcon-proceedings.org/wp-content/uploads/uvm-rapid-adoption-a-practical-subset-of-uvm-presentation.pdf)
+
+### Paradigm Works
+
+- [uvmtb_template Files – An Efficient & Rapid Way To Create UVM Testbenches](https://www.paradigm-works.com/hubfs/49408364/technical-library/Sunburst/CummingsSNUG2025SV_uvmtb_template_Testbenches_rev1_0.pdf)
+- [uvmtb_template - GitHub](https://github.com/paradigm-works/uvmtb_template)
 
 ## Thesis
 
