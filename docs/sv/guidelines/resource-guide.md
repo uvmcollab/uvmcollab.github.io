@@ -59,6 +59,16 @@ and verification community.
 - [Language: System Verilog for RTL Design](https://training.synopsys.com/learn/course/internal/view/elearning/135/language-systemverilog-for-rtl-design)
 - [Language: SystemVerilog Testbench](https://training.synopsys.com/learn/course/internal/view/elearning/457/systemverilog-testbench)
 
+## Articles
+
+### Verilab
+
+- [Taming Testbench Timing: Time’s Up for Clocking Block Confusions](https://cdn.prod.website-files.com/63f4bb21bd5303fe472ad00e/64958c5c4f777e440b2ba235_paper51_taming_tb_timing_FINAL_fixes.pdf)
+
+### Paradigm Works
+
+- [Finite State Machine (FSM) Design & Synthesis using SystemVerilog - Part I](https://www.paradigm-works.com/hubfs/49408364/technical-library/Sunburst/CummingsSNUG2019SV_FSM1_rev1_0.pdf)
+
 ## Websites & Communities
 
 - [VLSI Verify](https://vlsiverify.com/)

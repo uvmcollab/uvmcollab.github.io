@@ -103,6 +103,9 @@ nav = [
         {"Tools" = "tool-guides/synopsys/synopsys-tools.md"},
       ]},
   ]},
+  { "Jobs" =  [
+      { "Jobs" = "jobs/jobs.md" },
+  ]},
   { "About" =  [
       { "About" = "about/about.md" },
       { "Contacts" = "about/contacts.md" },
