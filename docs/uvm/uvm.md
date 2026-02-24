@@ -24,6 +24,22 @@ icon: lucide/rocket
 
     [:octicons-arrow-right-24: Read more](guidelines/coding-guidelines.md)
 
+- :fontawesome-solid-ruler-horizontal:{ .lg .middle } __Verification Plan__
+
+    ---
+
+    How to turn a specification into a structured verification plan: what to verify, priorities, and how to track progress to closure.
+
+    [:octicons-arrow-right-24: Read more](guidelines/verification-plan.md)
+
+- :material-chart-bar:{ .lg .middle } __Coverage Metrics__
+
+    ---
+
+    Learn how coverage measures verification progress and supports coverage closure with meaningful metrics and actions.
+
+    [:octicons-arrow-right-24: Read more](guidelines/coverage-metrics.md)
+
 </div>
 
 ## UVC Templates

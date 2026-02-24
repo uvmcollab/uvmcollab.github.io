@@ -57,6 +57,11 @@ nav = [
       { "Guidelines" = [
         {"Resource guide" = "sv/guidelines/resource-guide.md"},
       ]},
+      { "Basics" = [
+        {"Data types" = "sv/data-types.md"},
+        {"Constants" = "sv/constants.md"},
+        {"Clock" = "sv/clock-guide.md"},
+      ]},
       { "Configuration" = [
         {"Command line" = "sv/command-line-config.md"},
         {"Compiler directives" = "sv/compiler-directives.md"},
@@ -65,8 +70,10 @@ nav = [
   { "UVM" =  [
       {"UVM" = "uvm/uvm.md"},
       { "Guidelines" = [
-        "uvm/guidelines/resource-guide.md",
-        "uvm/guidelines/coding-guidelines.md",
+        {"Resource Guide" = "uvm/guidelines/resource-guide.md"},
+        {"UVM Coding Guidelines" = "uvm/guidelines/coding-guidelines.md"},
+        {"Verification Plan" = "uvm/guidelines/verification-plan.md"},
+        {"Coverage Metrics" = "uvm/guidelines/coverage-metrics.md"},
       ]},
       { "UVC Templates" = [
         {"Sequence Item" = "uvm/uvc-templates/sequence-item.md"},
