@@ -68,6 +68,8 @@ and verification community.
 ### Paradigm Works
 
 - [Finite State Machine (FSM) Design & Synthesis using SystemVerilog - Part I](https://www.paradigm-works.com/hubfs/49408364/technical-library/Sunburst/CummingsSNUG2019SV_FSM1_rev1_0.pdf)
+- [Simulation and Synthesis Techniques for Asynchronous FIFO Design](https://www.paradigm-works.com/hubfs/49408364/technical-library/Sunburst/CummingsSNUG2019SV_FSM1_rev1_0.pdf)
+ 
 
 ## Websites & Communities
 
