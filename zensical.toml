@@ -97,6 +97,9 @@ nav = [
       { "GitHub" = [
         {"Project Flow" = "skills/git/github-project-flow.md"},
       ]},
+      { "Tcl" = [
+        {"Basics" = "skills/tcl/tcl-basics.md"},
+      ]},
   ]},
   { "Tool Guides" =  [
       {"Tool Guides" = "tool-guides/tool-guides.md"},
@@ -123,7 +126,7 @@ repo_url = "https://github.com/uvmcollab/uvmcollab.github.io"
 
 # If you use a custom branch name or docs_dir, you will need to change the path
 # component of the URLs within the repository. Zensical allows you to set "edit_uri"
-# to override the default behavior. To form the URL, Zensical concatenates 
+# to override the default behavior. To form the URL, Zensical concatenates
 # the "repo_url", the paths configured here, and the path of the Markdown file
 # in the docs_dir.
 #
@@ -391,4 +394,3 @@ toggle.name = "Switch to dark mode"
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/uvmcollab/uvmcollab.github.io"
-
