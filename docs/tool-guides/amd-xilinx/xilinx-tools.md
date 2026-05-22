@@ -19,12 +19,16 @@ For up-to-date definitions, refer to the official AMD/Xilinx documentation.
 ## Synthesis
 
 - [(UG974) AMD UltraScale Architecture Libraries Guide](https://docs.amd.com/viewer/book-attachment/HN3Z3FDLDaS_Z_T2zqxXVg/axzEteXZWGEVsVh83Q88Kg-HN3Z3FDLDaS_Z_T2zqxXVg)
-- [(UG901) Vivado Design Suite User Guide Synthesis](https://docs.amd.com/viewer/book-attachment/U5I_~ZWyUb~PP5LQp9_6lg/7dUv4QfkDVSNtEF1y1zhDQ-U5I_~ZWyUb~PP5LQp9_6lg)
-
-- [(UG895) Vivado Design Suite User Guide System-Level Design Entry](https://docs.amd.com/viewer/book-attachment/6qgaojRVRFvpDU93cAvqkA/yDM8foN9y2S3ObJMUw6Qyg-6qgaojRVRFvpDU93cAvqkA)
-
-
-- [(UG888) Vivado Design Suite Tutorial Design Flows Overview](https://docs.amd.com/viewer/book-attachment/wSACEoGoZgOSgHjXNWNGXA/xy525rdqZHQ3R85X86sHdQ-wSACEoGoZgOSgHjXNWNGXA)
-
-
+- [(UG901) Vivado Design Suite User Guide: Synthesis](https://docs.amd.com/viewer/book-attachment/U5I_~ZWyUb~PP5LQp9_6lg/7dUv4QfkDVSNtEF1y1zhDQ-U5I_~ZWyUb~PP5LQp9_6lg)
+- [(UG895) Vivado Design Suite User Guide: System-Level Design Entry](https://docs.amd.com/viewer/book-attachment/6qgaojRVRFvpDU93cAvqkA/yDM8foN9y2S3ObJMUw6Qyg-6qgaojRVRFvpDU93cAvqkA)
+- [(UG888) Vivado Design Suite Tutorial Design: Flows Overview](https://docs.amd.com/viewer/book-attachment/wSACEoGoZgOSgHjXNWNGXA/xy525rdqZHQ3R85X86sHdQ-wSACEoGoZgOSgHjXNWNGXA)
 - [(UG908) Vivado Design Suite User Guide: Programming and Debugging](https://docs.amd.com/viewer/book-attachment/_2OVW4_h73Nz~IbHCzeVVQ/rWKrF~7IDwDtm56Ax0TopA-_2OVW4_h73Nz~IbHCzeVVQ)
+- [(UG903) Vivado Design Suite User Guide: Using Constraint](https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Introduction)
+
+## 7 Series
+
+- [(UG470) 7 Series FPGAs Configuration: User Guide](https://docs.amd.com/v/u/en-US/ug470_7Series_Config)
+- [(UG471) 7 Series FPGAs SelectIO Resources: User Guide](https://docs.amd.com/v/u/en-US/ug471_7Series_SelectIO)
+- [(UG472) 7 Series FPGAs Clocking Resources: User Guide](https://docs.amd.com/v/u/en-US/ug472_7Series_Clocking)
+- [(UG475) 7 Series FPGAs Packaging and Pinout: Product Specification](https://docs.amd.com/v/u/en-US/ug475_7Series_Pkg_Pinout)
+
