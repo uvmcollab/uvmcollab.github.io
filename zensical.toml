@@ -100,11 +100,20 @@ nav = [
       { "Tcl" = [
         {"Basics" = "skills/tcl/tcl-basics.md"},
       ]},
+      { "Bash" = [
+        {"Basics" = "skills/bash/bash-basics.md"},
+      ]},
+      { "Linux" = [
+        {"Basics" = "skills/linux/linux-basics.md"},
+      ]},
   ]},
   { "Tool Guides" =  [
       {"Tool Guides" = "tool-guides/tool-guides.md"},
       { "Synopsys" = [
         {"Tools" = "tool-guides/synopsys/synopsys-tools.md"},
+      ]},
+      { "AMD/Xilinx" = [
+        {"Tools" = "tool-guides/amd-xilinx/xilinx-tools.md"},
       ]},
   ]},
   { "Jobs" =  [
