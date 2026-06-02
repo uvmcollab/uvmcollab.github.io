@@ -330,8 +330,6 @@ fi
 printf 'RUN_COV_DB = %s\n' "$RUN_COV_DB"
 ```
 
-
-
 ## Reference Material
 
 **Websites**
