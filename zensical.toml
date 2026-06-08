@@ -105,6 +105,11 @@ nav = [
       ]},
       { "Linux" = [
         {"Basics" = "skills/linux/linux-basics.md"},
+        {"Regex" = "skills/linux/regex.md"},
+      ]},
+      { "Python" = [
+        {"Basics" = "skills/python/python-basics.md"},
+        {"uv" = "skills/python/uv.md"},
       ]},
   ]},
   { "Tool Guides" =  [

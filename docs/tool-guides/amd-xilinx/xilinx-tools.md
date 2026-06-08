@@ -31,4 +31,5 @@ For up-to-date definitions, refer to the official AMD/Xilinx documentation.
 - [(UG471) 7 Series FPGAs SelectIO Resources: User Guide](https://docs.amd.com/v/u/en-US/ug471_7Series_SelectIO)
 - [(UG472) 7 Series FPGAs Clocking Resources: User Guide](https://docs.amd.com/v/u/en-US/ug472_7Series_Clocking)
 - [(UG475) 7 Series FPGAs Packaging and Pinout: Product Specification](https://docs.amd.com/v/u/en-US/ug475_7Series_Pkg_Pinout)
+- [(DS181) Artix 7 FPGA Data Sheet: DC and AC Switching Characteristics]( https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet)
 
