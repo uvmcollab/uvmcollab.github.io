@@ -1,5 +1,5 @@
 ---
-icon: material/door-open
+icon: material/book-sync
 ---
 
 # SystemRDL

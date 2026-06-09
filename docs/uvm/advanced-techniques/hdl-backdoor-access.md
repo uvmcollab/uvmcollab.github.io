@@ -54,7 +54,7 @@ Releases a value previously set with [`uvm_hdl_force`](#uvm_hdl_force).  Returns
 
 **Accellera**
 
-- [UVM 1.2 Class Reference UVM HDL Backddor Access supoort routines](https://verificationacademy.com/verification-methodology-reference/uvm/docs_1.2/html/files/dpi/uvm_hdl-svh.html)
+- [UVM 1.2 Class Reference UVM HDL Backdoor Access supoort routines](https://verificationacademy.com/verification-methodology-reference/uvm/docs_1.2/html/files/dpi/uvm_hdl-svh.html)
 - [UVM 1.2 Class Reference Index](https://verificationacademy.com/verification-methodology-reference/uvm/docs_1.2/html/index.html)
 
 **Source Code**
