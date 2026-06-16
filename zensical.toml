@@ -125,6 +125,9 @@ nav = [
   { "Jobs" =  [
       { "Jobs" = "jobs/jobs.md" },
   ]},
+  { "Essentials" =  [
+      { "Essentials" = "essentials/essentials.md" },
+  ]},
   { "About" =  [
       { "About" = "about/about.md" },
       { "Contacts" = "about/contacts.md" },
