@@ -27,6 +27,7 @@ and verification community.
 
 - [_C. Spear, G. J. Tumbush_, **SystemVerilog for verification**, 3rd ed. Springer, 2012.](https://link.springer.com/book/10.1007/978-1-4614-0715-7)
 - [_J. Bergeron_, **Writing testbenches using System Verilog**. Springer, 2006.](https://link.springer.com/book/10.1007/0-387-31275-7)
+- [_J. Bergeron, E. Cerny, A. Hunter, and A. Nightingale_, **Verification Methodology Manual for SystemVerilog**. Springer, 2006.](https://link.springer.com/book/10.1007/b135575)
 
 ### Formal Verification
 
@@ -113,8 +114,22 @@ possible, both the **official website** and the **source repository** are provid
 ## Libraries
 
 - [Open Logic - A VHDL Standard Library](https://github.com/open-logic/open-logic)
+- [VHDL 8b10b encoder and decoder](https://github.com/fransschreuder/8b10b_VHDL)
+
 
 ## Documentation & Diagrams
 
-- [Wavedrom](https://wavedrom.com/) - Timing and waveform diagrams
-- [Inkscape](https://inkscape.org/) - Vector grephics and diagrams
+
+- **Wavedrom**
+    - [Wavedrom](https://wavedrom.com/) - Timing and waveform diagrams
+    - [Wavedrom Python API](https://pypi.org/project/wavedrom/) - Python API form Wavedrom
+
+- **Inkscape**
+    - [Inkscape](https://inkscape.org/) - Vector grephics and diagrams
+    - [TJ FREE Inkscape Tutorial](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv) - YouTube Tutorial to learn Inkscape basics
+
+
+- **LaTeX**
+    - [bytefield](https://ctan.org/pkg/bytefield?lang=en) - LaTeX package to help create illustrations for protocols specifications.
+    - [register](https://ctan.org/pkg/register) - LaTeX package to help create registers specifications.
+
